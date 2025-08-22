@@ -1,0 +1,22 @@
+            - name: JSDoc Builder
+  # You may pin to the exact commit or the version.
+  # uses: eutiveumsonho/jsdoc-builder-action@7f44bd4b5bd9d31ad0b891de0d2402a70e2eaa0d
+  uses: eutiveumsonho/jsdoc-builder-action@v1.0.0
+  with:
+    # Input files for jsdoc
+    jsdoc-input-files: 
+    # Name of the destination username/organization
+    destination-github-username: 
+    # Destination repository
+    destination-repository-name: 
+    # Email for the git commit
+    user-email: # optional, default is github-actions[bot]@users.noreply.github.com
+    # [Optional] Name for the git commit. Defaults to the destination username/organization name
+    user-name: # optional, default is github-actions[bot]
+    # [Optional] Username/organization for the destination repository
+    destination-repository-username: # optional, default is 
+    # [Optional] Target branch name for the destination repository. Defaults to "main"
+    target-branch: # optional, default is main
+    # [Optional] Commit message for the output repository. ORIGIN_COMMIT is replaced by the URL@commit in the origin repo
+    commit-message: # optional, default is docs: update from ORIGIN_COMMIT
+          
